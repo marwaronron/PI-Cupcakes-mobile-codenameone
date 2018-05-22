@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 1" cloudDestinationProperty="GUI 1" layout="BorderLayout" borderLayoutAbsoluteCenter="true" title="Bienvenue dans cupcakes" >
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="North" />
+    <component type="TextArea" name="TextArea3" cloudBoundProperty="text" cloudDestinationProperty="TextArea3" text="" >
+    </component>
+    <component type="TextArea" name="TextArea2" cloudBoundProperty="text" cloudDestinationProperty="TextArea2" text="" >
+    </component>
+    <component type="Container" name="Container" cloudDestinationProperty="Container" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Button" name="Button6" cloudDestinationProperty="Button6" text="Profile" >
+      </component>
+      <component type="Button" name="Button5" cloudDestinationProperty="Button5" text="Recettes" >
+      </component>
+      <component type="Button" name="Button4" cloudDestinationProperty="Button4" text="Shop" >
+      </component>
+      <component type="Button" name="Button3" cloudDestinationProperty="Button3" text="Promotion" >
+      </component>
+      <component type="Button" name="Button2" cloudDestinationProperty="Button2" text="Evaluation et R&#xe9;clamation" >
+      </component>
+      <component type="Button" name="Button" cloudDestinationProperty="Button" text="Panier" >
+      </component>
+      <component type="Button" name="Button7" cloudDestinationProperty="Button7" text="Logout" >
+      </component>
+    </component>
+  </component>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 2" cloudDestinationProperty="GUI 2" uiid="Form" layout="BorderLayout" borderLayoutAbsoluteCenter="true" title="Login" >
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Label" name="Label" cloudDestinationProperty="Label" text="Username:    " >
+      </component>
+      <component type="TextField" name="TextField" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" >
+      </component>
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Mot de pass:" >
+      </component>
+      <component type="TextField" name="TextField1" cloudBoundProperty="text" cloudDestinationProperty="TextField1" text="" >
+      </component>
+    </component>
+    <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Button" name="Button1" cloudDestinationProperty="Button1" text="Se connecter" >
+      </component>
+      <component type="Button" name="Button" cloudDestinationProperty="Button" text="S'inscrire" >
+      </component>
+      <component type="Label" name="Label3" cloudDestinationProperty="Label3" text="Mot de passe oublier?" >
+      </component>
+    </component>
+  </component>
+</component>

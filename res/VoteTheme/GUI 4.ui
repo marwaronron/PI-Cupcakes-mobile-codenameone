@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 4" cloudDestinationProperty="GUI 4" uiid="Form3" layout="BoxLayout" boxLayoutAxis="Y" title="Mon Profile" >
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" >
+    <component type="Label" name="Label3" cloudDestinationProperty="Label3" text="Bienvenue" >
+    </component>
+    <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Username" >
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label1" text="Email" >
+    </component>
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Button" name="Button" cloudDestinationProperty="Button" text="Ajouter une nouvelle Recette" >
+    </component>
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="Mes recettes" >
+    </component>
+  </component>
+</component>
